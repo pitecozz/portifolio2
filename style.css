@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #414141;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+.lista-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-proje {
+  background-color: #fff;
+  padding: 1em;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-proje:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-proje h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-proje p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.card-proje a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-proje a:hover {
+  color: #23527c;
+}
+
+.link-repo {
+  display: inline-block;
+  background-color: #000000; 
+  color: #fff !important; 
+  padding: 10px 15px; 
+  margin-top: 10px; 
+  border-radius: 5px; 
+  text-align: center; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link-repo:hover {
+  background-color: #333; 
+  color: #fff !important; 
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-habilidades {
+  background-color: #fff;
+  padding: 1em;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-habilidades:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-habilidades h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-habilidades p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.card-habilidades img {
+  width: 25%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.sobremim-content {
+  display: flex;
+  align-items: center;
+}
+
+.sobremim-content .profile-pic {
+  margin-right: 20px;
+}
+
+.contato-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.contato-info p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.contato-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contato-info li {
+  margin-bottom: 10px;
+}
+
+.contato {
+  display: inline-block;
+  background-color: #000000; 
+  color: #fff !important; 
+  padding: 10px 15px; 
+  margin-top: 10px; 
+  border-radius: 5px; 
+  text-align: center; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.contato-info a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contato-info a:hover {
+  color: #23527c;
+}
+
+@media (max-width: 768px) {
+  .contato-container {
+      flex-direction: column;
+  }
+  .profile-pic {
+      width: 150px;
+      height: 150px;
+  }
+  .contato-info {
+      padding: 10px;
+  }
+  .sobremim-content {
+      flex-direction: column;
+      align-items: center;
+  }
+  .sobremim-content .profile-pic {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+
+
